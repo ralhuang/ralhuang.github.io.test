@@ -11,7 +11,8 @@ import {
 
 function App() {
   return (
-    <div>
+    <Router>
+      <div>
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -24,6 +25,7 @@ function App() {
         </li>
       </ul>
     </div>
+    </Router>
   );
 }
 
