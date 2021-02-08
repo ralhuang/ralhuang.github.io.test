@@ -12,19 +12,21 @@ import {
 function App() {
   return (
     <Router>
-      <div>
-      <ul>
-        <li>
+      <div class="topnav">
+        <div class="buttons">
+
+        </div>
+
           <Link to="/">Home</Link>
-        </li>
-        <li>
+
           <Link to="/projects">Projects</Link>
-        </li>
-        <li>
+
           <Link to="/resume">Resume</Link>
-        </li>
-      </ul>
-    </div>
+
+      </div>
+      <div class="content">
+
+      </div>
     </Router>
   );
 }

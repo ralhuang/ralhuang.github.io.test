@@ -1,0 +1,30 @@
+.menubutton {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.hoveranimation {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 120%;
+    cursor: pointer;
+
+    left: -5%;
+    transform: translateX(-100%) skew(-10deg);
+    transition: transform .3s ease-out;
+    background-color: #0f1923;
+}
+
+.buttontext {
+    position: relative;
+    display: block;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+
+    background-color: transparent;
+}
