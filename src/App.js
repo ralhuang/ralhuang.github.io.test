@@ -1,31 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 import React from 'react';
 import {
-    HashRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+  HashRouter as Router,
+} from "react-router-dom";
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <Router>
-      <div class="topnav">
-        <div class="buttons">
-
-        </div>
-
-          <Link to="/">Home</Link>
-
-          <Link to="/projects">Projects</Link>
-
-          <Link to="/resume">Resume</Link>
-
-      </div>
-      <div class="content">
-
+      <Navbar/>
+      <div className="content">
+        
       </div>
     </Router>
   );

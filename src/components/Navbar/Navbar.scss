@@ -1,0 +1,30 @@
+.topnav {
+    border: #FF4655 solid 5px;
+    background-color: #0f1923;
+    height: 80px;
+    display: flex;
+    transition: opacity ease .3s;
+  }
+
+.navList{
+    margin: 0;
+    opacity: 1;
+    margin-left: 18px;
+    width: 100%;
+}
+
+.navListItem {
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    height: 80px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
