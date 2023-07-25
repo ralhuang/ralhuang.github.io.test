@@ -1,0 +1,23 @@
+FIRST:
+
+Finish Projects Page
+
+Finish Resume Page
+
+
+
+Features:
+
+Make Navbar above the app, and fixed to the top of the page
+
+Responsiveness
+
+Click to scroll
+
+Fast Scrolling
+
+Dark Mode / Light Mode
+
+Animations
+
+Logo

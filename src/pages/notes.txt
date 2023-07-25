@@ -1,9 +1,0 @@
-Features:
-
-Fast Scrolling
-
-Dark Mode / Light Mode
-
-Animations
-
-Logo
