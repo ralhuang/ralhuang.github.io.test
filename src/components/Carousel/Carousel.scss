@@ -1,0 +1,38 @@
+.carousel-container {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    
+    background: #f1f1f1;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
+    background-color: #fff;
+}
+
+.indicators {
+    margin-top: 20px;
+    background: none;
+
+    .indicator-buttons {
+        border: none;
+        margin: none;
+        background: none;
+    }
+}
+
+
+.button-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: red;
+}
