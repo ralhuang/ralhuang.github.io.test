@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
-import { Carousel } from '../components/Carousel/Carousel';
+import React from 'react';
+import { Carousel } from '../components/Carousel/Carousel.js';
 import './projects.scss';
 
-class Projects extends Component {
-    render() {
+export const Projects = () => {
         return(
-            <div className='projects-container'>
+            <div id='projects-scroll' className='projects-container'>
                 <Carousel/>
             </div>
         );
-        
-    }
 }
-
-
-export default Projects;
     

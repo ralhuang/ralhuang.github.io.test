@@ -8,6 +8,7 @@
     display: flex;
     transition: opacity ease .3s;
     position: fixed;
+    z-index: 100;
   }
 
 .navList{
@@ -22,6 +23,17 @@
     display: inline-flex;
     position: relative;
     height: 80px;
+}
+
+.toggle {
+    width: 80px;
+    height: 80px;
+
+    svg {
+        fill: red;
+        width: 3rem;
+        height: 3rem;
+    }
 }
 
 @keyframes fadeInAnimation {

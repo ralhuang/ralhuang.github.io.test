@@ -1,17 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './resume.scss';
 
-class Resume extends Component {
-    render() {
-        return(
-            <div className='resume-container'>
-                RESUME
-            </div>
-        );
-        
-    }
+export const Resume = () => {
+    return(
+        <div id='resume-scroll' className='resume-container'>
+            RESUME
+        </div>
+    );
+
 }
-
-
-export default Resume;
-    

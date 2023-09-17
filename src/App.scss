@@ -1,7 +1,12 @@
-$dark-background: #0f1923;
-$dark-title-text: #94eca9;
-$dark-text: #94eca9;
+$dark-background: #212932;
+$dark-title-text: #ece8e1;
+$dark-text: #ece8e1;
 $content-font-family: 'Poppins', sans-serif;
+
+
+$light-background: #FDFAF6;
+$light-title-text: #0f1923;
+$light-text: #768079;
 
 .App {
   text-align: center;
@@ -19,7 +24,7 @@ $content-font-family: 'Poppins', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0f1923;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,4 +49,9 @@ $content-font-family: 'Poppins', sans-serif;
   
 a {
   text-decoration: none;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+  scroll-margin-top: 80px;
 }

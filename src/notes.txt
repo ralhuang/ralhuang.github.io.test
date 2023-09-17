@@ -1,23 +1,31 @@
 FIRST:
 
 Finish Projects Page
+    1. ~ Carousel for Projects
+    2. Interactive links
+    3. Images
 
 Finish Resume Page
-
+    1. 
 
 
 Features:
 
-Make Navbar above the app, and fixed to the top of the page
-
 Responsiveness
 
-Click to scroll
 
-Fast Scrolling
 
 Dark Mode / Light Mode
 
 Animations
+    1. links
+    2. 
 
-Logo
+Logo - HIRE SOMEONE FROM FIVER TO CREATE SOMETHING
+
+DONE: 
+
+~ Make Navbar above the app, and fixed to the top of the page
+~ Smooth Scrolling
+~ Click to scroll
+~ Carousel for Projects

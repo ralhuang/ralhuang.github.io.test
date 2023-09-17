@@ -3,12 +3,7 @@
 .projects-container {
     color: $dark-title-text;
     background-color: $dark-background;
-}
-
-.carousel {
-    overflow: hidden;
-    width: 700px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-  }
+    scroll-margin-top: 80px;
+}

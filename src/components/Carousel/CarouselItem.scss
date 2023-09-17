@@ -1,0 +1,23 @@
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 100%;
+}
+
+.item-icon {
+    width: 250px;
+    padding: 0 20px 0 20px;
+}
+
+.item-text {
+    font-size: 1.15rem;
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    white-space: normal;
+}
+
+.item-title {
+    padding: 0 20px 0 20px;
+}

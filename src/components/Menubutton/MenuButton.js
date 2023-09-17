@@ -6,11 +6,18 @@ class MenuButton extends Component {
 
     render() {
         return(
-            <Link to={this.props.url} className="menubutton">
-                <span className="buttontext">
+            <span className="menubutton">
+                <span 
+                    className="buttontext"
+                    onClick={() => {
+                        document.getElementById(this.props.scrollItem).scrollIntoView(
+                            {behavior: 'smooth'}
+                        );
+                    }}
+                >
                     {this.props.title}
                 </span>
-            </Link>
+            </span>
         );
     }
 }
